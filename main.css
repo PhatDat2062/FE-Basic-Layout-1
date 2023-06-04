@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 600px;
+    left: 450px;
+}
+
+.title {
+    position: absolute;
+    width: 336px;
+    height: 20px;
+    top: 82px;
+    left: 59px;
+    right: 238px;
+    bottom: 836px;
+
+    color: #FF7F09;
+    font-size: 17px;
+    font-family: 'Roboto';
+    line-height: 19.92px;
+    font-style: normal;
+}
+
+.content {
+    position: absolute;
+    width: 300px;
+    height: 286.2px;
+    left: -17px;
+    top: 115.8px;
+    right: 113px;
+    bottom: 536px;
+    background-image: url(https://i.dawn.com/large/2016/04/57071ce604cda.jpg);
+    background-size: cover;
+    object-fit: cover; 
+    margin-left: 75px;
+
+}
+
+.box {
+    position: absolute;
+    width: 212px;
+    height: 55px;
+    left: 363px;
+    top: 116px;
+    right: 58px;
+    bottom: 776px;
+    background-color: #B18DCD;
+    margin-left: 15px;
+    
+}
+.box .text-box {
+    /* position: absolute; */
+    width: 189px;
+    height: 46px;
+    left: 375px;
+    top: 121px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 9px;
+    line-height: 11px;
+
+    color: #FFFFFF;
+    margin: 5px 11px 4px 12px;
+}
+
+.box .text-under-box {
+    /* position: absolute; */
+    width: 212px;
+    height: 214px;
+    left: 363px;
+    top: 187px;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #464646;
+}
+
+.content-2 .text-ct2 {
+    position: absolute;
+    width: 499px;
+    height: 69px;
+    left: 59px;
+    top: 418px;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #000000;
+}
+
+.table {
+    position: absolute;
+    width: 414px;
+    height: 194px;
+    left: 101px;
+    top: 519px;
+    /* background-color: #FFF7E9; */
+}
+#bang {
+    background-color: #FFF7E9;
+}
+
+
+table {
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+    /* transform: rotate(90deg); */
+    border: 1px solid #FFF7E9 ;
+}
+th {
+    padding: 6px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+th {
+    border: 1px solid #000000;
+}
+.button {
+    padding: 3px 9px 4px 9px;
+    background-color: #F2A54B;
+    cursor: pointer;
+}
+
+.line {
+    position: absolute;
+    width: 304px;
+    height: 0px;
+    left: 163px;
+    top: 742px;
+    right: 166px;
+    bottom: 196px;
+    margin-top: 20px;
+    
+}
+hr {
+    width: 100%;
+    box-align: center ;
+    color: #DEDEDE;
+    border: 1px solid;
+}
+
+.quote {
+    position: absolute;
+    width: 299px;
+    height: 39px;
+    left: 166px;
+    top: 766px;
+    margin-top: 20px;
+}
+
+#quote-content {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #626262;
+}
+
+.author {
+    position: absolute;
+    width: 90px;
+    height: 17px;
+    left: 380px;
+    top: 808px;
+    right: 119px;
+    bottom: 108px;
+    margin-top: 12px;
+}
+
+#author-name {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
